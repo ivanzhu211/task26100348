@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "campaign-conflicts"
+version = "0.1.0"
+description = "Marketing campaign schedule conflict detection library (SQLite-backed)"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["campaign_conflicts"]
