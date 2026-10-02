@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "campaign-conflicts"
+version = "0.1.0"
+description = "营销活动排期冲突检测库：区域周粒度冲突检测、冲突历史与站内通知，SQLite 持久化"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["campaign_conflicts*"]
